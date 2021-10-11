@@ -18,15 +18,28 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="itheima-actuator" target="1.5" />
-      <module name="itheima-admin-client" target="1.5" />
-      <module name="itheima-admin-server" target="1.5" />
-      <module name="itheima-redis-springboot-starter" target="1.5" />
-      <module name="itheima-springboot-demo01" target="1.5" />
-      <module name="itheima-springboot-demo02" target="1.5" />
-      <module name="itheima-springboot-demo02-enable" target="1.5" />
-      <module name="itheima-springboot-demo03-enable" target="1.5" />
-      <module name="itheima-test-starter" target="1.5" />
+      <module name="itheima-actuator" target="1.8" />
+      <module name="itheima-admin-client" target="1.8" />
+      <module name="itheima-admin-server" target="1.8" />
+      <module name="itheima-redis-springboot-starter" target="1.8" />
+      <module name="itheima-springboot-demo01" target="1.8" />
+      <module name="itheima-springboot-demo02" target="1.8" />
+      <module name="itheima-springboot-demo02-enable" target="1.8" />
+      <module name="itheima-springboot-demo03-enable" target="1.8" />
+      <module name="itheima-test-starter" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itheima-actuator" options="-parameters" />
+      <module name="itheima-admin-client" options="-parameters" />
+      <module name="itheima-admin-server" options="-parameters" />
+      <module name="itheima-redis-springboot-starter" options="-parameters" />
+      <module name="itheima-springboot-demo01" options="-parameters" />
+      <module name="itheima-springboot-demo02" options="-parameters" />
+      <module name="itheima-springboot-demo02-enable" options="-parameters" />
+      <module name="itheima-springboot-demo03-enable" options="-parameters" />
+      <module name="itheima-test-starter" options="-parameters" />
+    </option>
   </component>
 </project>

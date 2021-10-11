@@ -20,6 +20,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>2.1.4.RELEASE</version>
         </dependency>
         <!--加入itheima的redis的起步依赖-->
         <dependency>
